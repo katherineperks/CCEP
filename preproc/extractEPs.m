@@ -1,5 +1,5 @@
 function [fs,response_bypair,avgresponse_bypair,selected_chans] = extractEPs(subject,fileName,window_time,state)
-% extractEPs - returns all channel responses and the average channel response
+% returns all channel responses and the average channel response
     % to stimulation at each pair of channels (ie stim pair)
 
 if isempty(window_time)

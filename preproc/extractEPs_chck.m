@@ -1,5 +1,5 @@
 function [fs,response_bypair,avgresponse_bypair,selected_chans] = extractEPs_chck(subject,fileName,window_time,state)
-% extractEPs - returns all channel responses and the average channel response
+% returns all channel responses and the average channel response
     % to stimulation at each pair of channels (ie stim pair)
     % uses chck to exclude bad trials (artifacts) from the channel responses
 
